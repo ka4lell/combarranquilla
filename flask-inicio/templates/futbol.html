@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <marquee> COMBARRANQUILLA</marquee>
+
+{% if equipo == "Colombia"%}
+
+<h1>Jugadores de futbol de Colombia</h1>
+<ol>    
+    <li>Luis Diaz</li>
+    <li>James Rodriguez</li>
+    <li>Radamel Falcao</li>
+    <li>Santos Borre</li>
+</ol>
+{% elif equipo  != "Colombia" %}
+
+<h1>Jugadores de futbol Argentina</h1>
+<ol>
+    <li>Cuti Romero</li>
+    <li>Leandro Paredes</li>   
+    <li>Dibu Martinez</li>
+    <li>Leonel Messi</li>
+</ol>
+
+{% endif %}
+
+</body>
+</html>

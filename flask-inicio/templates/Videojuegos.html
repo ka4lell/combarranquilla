@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style/estilo-index.css">
+    <title>Hobby: Videojuegos</title>
+</head>
+<body>
+    <div class="card">
+        <h1>🎮 Me encantan los videojuegos</h1>
+        <p>Pues estos me generan mucha felicidad y entretenimiento, toda la vida han sido una parte de mí, por así decirlo.</p>
+        <h2>Los juegos que suelo jugar</h2>
+        <div class="gallery">
+            <div class="game">
+                <img src="{{url_for('static',filename='images/LOL.jpg')}}" alt="League of Legends">
+                <p>League of Legends</p>
+            </div>
+            <div class="game">
+                <img src="{{url_for('static',filename='images/MARVEL.png')}}" alt="Marvel Rivals">
+                <p>Marvel Rivals</p>
+            </div>
+            <div class="game">
+                <img src="{{url_for('static',filename='images/BR.jpg')}}" alt="Brawlhalla">
+                <p>Brawlhalla</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
