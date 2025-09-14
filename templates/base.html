@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Sistema de Gestión{% endblock %}</title>
+</head>
+<body>
+<div>
+    <nav>
+        <a href="{{ url_for('cursos') }}">Cursos</a> |
+        <a href="{{ url_for('estudiantes') }}">Estudiantes</a>
+    </nav>
+    
+    <hr>
+
+    {% block content %}{% endblock %}
+</div>
+</body>
+</html>
